@@ -103,13 +103,11 @@ final class ImageFetchingService: DataProvider {
                 }
                 else if let data = data {
                     ImageCache.saveImageData(withUrl: url, data: data)
-                    print("Image got from network")
                     completion(.success(data))
                 }
             }.resume()
             return
             }
-        print("Image got from cache!!!")
         completion(.success(imageData))
     }
 }
