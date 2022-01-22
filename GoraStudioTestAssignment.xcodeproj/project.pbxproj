@@ -16,7 +16,6 @@
 		D8667CBD2798898D0045B8F7 /* PhotoCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8667CBC2798898D0045B8F7 /* PhotoCellViewModel.swift */; };
 		D8667CBF2798E46C0045B8F7 /* ImageCachingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8667CBE2798E46C0045B8F7 /* ImageCachingService.swift */; };
 		D89ECB01279850A2000637B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89ECB00279850A2000637B2 /* AppDelegate.swift */; };
-		D89ECB05279850A2000637B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89ECB04279850A2000637B2 /* ViewController.swift */; };
 		D89ECB0A279850A6000637B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D89ECB09279850A6000637B2 /* Assets.xcassets */; };
 		D89ECB0D279850A6000637B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D89ECB0B279850A6000637B2 /* LaunchScreen.storyboard */; };
 		D89ECB1627985526000637B2 /* ImageFetchingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89ECB1527985526000637B2 /* ImageFetchingService.swift */; };
@@ -38,7 +37,6 @@
 		D8667CBE2798E46C0045B8F7 /* ImageCachingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCachingService.swift; sourceTree = "<group>"; };
 		D89ECAFD279850A2000637B2 /* GoraStudioTestAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoraStudioTestAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D89ECB00279850A2000637B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D89ECB04279850A2000637B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D89ECB09279850A6000637B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D89ECB0C279850A6000637B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D89ECB0E279850A6000637B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -108,14 +106,13 @@
 		D89ECAFF279850A2000637B2 /* GoraStudioTestAssignment */ = {
 			isa = PBXGroup;
 			children = (
-				D89ECB2427987324000637B2 /* Cells */,
+				D89ECB2427987324000637B2 /* SharedCells */,
 				D89ECB2127987093000637B2 /* Helpers */,
 				D89ECB1A27986B0A000637B2 /* UsersListScreen */,
 				D8667CAF27987D1D0045B8F7 /* AlbumsListScreen */,
 				D8667CB4279888B70045B8F7 /* PhotosScreen */,
 				D89ECB142798521D000637B2 /* ImageFetchingService */,
 				D89ECB00279850A2000637B2 /* AppDelegate.swift */,
-				D89ECB04279850A2000637B2 /* ViewController.swift */,
 				D89ECB09279850A6000637B2 /* Assets.xcassets */,
 				D89ECB0B279850A6000637B2 /* LaunchScreen.storyboard */,
 				D89ECB0E279850A6000637B2 /* Info.plist */,
@@ -159,12 +156,12 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
-		D89ECB2427987324000637B2 /* Cells */ = {
+		D89ECB2427987324000637B2 /* SharedCells */ = {
 			isa = PBXGroup;
 			children = (
 				D8667CAB279873A50045B8F7 /* CommonCell.swift */,
 			);
-			path = Cells;
+			path = SharedCells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,7 +246,6 @@
 				D89ECB2027986DE4000637B2 /* ErrorDomain.swift in Sources */,
 				D8667CB62798893A0045B8F7 /* PhotosScreenViewModel.swift in Sources */,
 				D89ECB1C27986BAB000637B2 /* UsersListViewController.swift in Sources */,
-				D89ECB05279850A2000637B2 /* ViewController.swift in Sources */,
 				D8667CBD2798898D0045B8F7 /* PhotoCellViewModel.swift in Sources */,
 				D89ECB2327987144000637B2 /* UIKitEssentials.swift in Sources */,
 				D89ECB01279850A2000637B2 /* AppDelegate.swift in Sources */,
