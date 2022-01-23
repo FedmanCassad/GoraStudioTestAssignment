@@ -19,6 +19,7 @@ final class PhotosScreenViewController: UIViewController {
         collectionView.backgroundColor = .white
         collectionView.allowsSelection = false
         collectionView.delegate = self
+        collectionView.showsVerticalScrollIndicator = false
         collectionView.register(PhotoCell.self, forCellWithReuseIdentifier: PhotoCell.identifier)
         collectionView.toAutoLayout()
         return collectionView
